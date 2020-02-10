@@ -1,0 +1,54 @@
+.using{
+  padding: 60px 12.5%;
+  &-title{
+    @extend %section-title;
+  }
+  &-wrapper{
+    text-align: center;
+  }
+  &-name{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  &-about{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 15px;;
+  }
+  &-descr{
+    margin-top: 15px;
+    @extend %section-descr;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+}
+
+.slider{
+  margin: 0 auto;
+  width: 900px;
+  position: relative;
+  padding: 60px 0px;
+  &-wrapper{
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  &-slide{
+    width: 100%;
+    height: 100%;
+  }
+  &-prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+  &-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+}

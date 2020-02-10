@@ -1,0 +1,21 @@
+%all-buttons{
+  padding: 12px 64px;
+  background-color: $buttons-color;
+  color: $buttons-text-color;
+  border: none;
+  border-radius: 4px;
+}
+
+%section-title{
+  color: $section-title-color;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+}
+
+%section-descr{
+  color: $section-descr-color;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+.header{
+  padding: 0px 100px 0px 100px;
+  &-wrapper{
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-logo{
+    color: $main-color;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &-menu{
+    &__item{
+      color: $text-color-dark;
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0px 12px 0px 12px;
+    }
+  }
+  &-button{
+    @extend %all-buttons;
+  }
+}

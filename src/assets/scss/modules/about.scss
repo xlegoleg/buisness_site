@@ -1,0 +1,52 @@
+.about{
+  padding: 60px 12.5%;
+  &-title{
+    @extend %section-title;
+  }
+  &-descr{
+    @extend %section-descr;
+    width: 600px;
+    margin:50px auto 0px auto;
+  }
+  &-subtitle{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin:70px 0px 70px 0px;
+  }
+  &-wrapper{
+    display: grid;
+    margin-bottom: 100px;
+    grid-template-areas: 
+    'about-box about-box about-box';
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  &-box{
+    padding: 0px 30px;
+    text-align: center;
+    &__title{
+      margin: 55px 0px 20px 0px;
+      font-size: 18px;
+      font-weight: 700;
+      color: $text-color-dark
+    }
+    &__descr{
+      font-size: 16px;
+      font-weight: 300;
+      color: $section-descr-color;
+    }
+  }
+  &-express{
+    padding: 45px 200px;
+    text-align: center;
+    background-color: $buttons-color-light;
+    p{
+      font-size: 24px;
+      color: $text-color-dark;
+      font-weight: 300;
+    }
+    &__button{
+      @extend %all-buttons;
+    }
+  }
+}

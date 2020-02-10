@@ -1,0 +1,37 @@
+.opportunities{
+  padding: 60px 12.5%;
+  &-title{
+    @extend %section-title;
+  }
+  &-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &-descr{
+    align-self: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.667*100%;
+    min-width: 500px;
+    font-size: 24px;
+    font-weight: 300;
+    color:$section-descr-color;
+  }
+  &-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 0.316*100%;
+    min-width: 250px;
+    img{
+      width: 100%
+    }
+    p{
+      font-weight: 400;
+      font-size: 16px;
+      color: $text-color-dark;
+    }
+  }
+
+}

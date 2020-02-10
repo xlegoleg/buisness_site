@@ -1,0 +1,22 @@
+.main{
+  padding: 430px 0px 100px 70px;
+  background: url('/assets/img/images/about-bg.jpg') center center/cover no-repeat;
+  &-block{
+    width: 400px;
+    padding: 67px 59px 85px 38px;
+    background-color:$main-color;
+  }
+  &-title{
+    text-transform: uppercase;
+    color: $text-color-light;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+  }
+  &-descr{
+    color:$text-color-light;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+  }
+}

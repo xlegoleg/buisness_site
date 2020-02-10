@@ -1,0 +1,14 @@
+@import 'modules/helpers/fonts';
+@import 'modules/helpers/variables';
+@import 'modules/helpers/class_templates';
+@import 'modules/header';
+@import 'modules/main';
+@import 'modules/about';
+@import 'modules/opportunities';
+@import 'modules/using';
+
+@import 'modules/additional';
+
+*{
+  font-family: MyriadPro sans-serif;
+}
